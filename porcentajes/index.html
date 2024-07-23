@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORCENTAJES</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+    <div class="container">
+        <div class="col-12 row formulario">
+            <div class="col-8 formas">
+                <h3>Porcentaje</h3>
+                <form class="row g-3 needs-validation" method="#" novalidate onsubmit="return porcentaje();">
+                    <div class="col-md-4">
+                    <label for="txtNumero" class="form-label">Numero</label>
+                    <input type="number" class="form-control" id="txtNumero" required>
+                    <div class="valid-feedback">
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="txtPorcentaje" class="form-label">Porcentaje</label>
+                        <input type="number" class="form-control" id="txtPorcentaje" required>
+                        <div class="valid-feedback">
+                        </div>
+                        </div>
+                    <div>
+                    <button class="btn btn-primary" type="submit">Calcular</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-4 respuesta">
+                    <h3>Respuesta</h3>
+                <div id="porcentajes"></div>
+            </div>
+        </div>
+
+    </div>
+   
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="js/validate.js"></script>
+    <script src="js/porcentajes.js"></script>
+</body>
+</html>

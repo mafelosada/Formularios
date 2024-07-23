@@ -1,0 +1,20 @@
+.formulario{
+    display: flexbox;
+    flex-wrap: nowrap;
+    margin: 10px;
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+.respuesta{
+    border:  2px solid #3b918b;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 6px;
+}
+.formas{
+    border:  2px solid #3f09d5;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 6px;
+    
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areas</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+    <div class="container">
+        <h1 class="text-center">AREAS</h1>
+        <div class="col-12 row formulario">
+            <div class="col-7 formas">
+                <h3>Area del Cuadrado</h3>
+                <form class="row g-3 needs-validation" method="#" novalidate onsubmit="return areaCuadrado();">
+                    <div class="col-md-4">
+                    <label for="txtLado" class="form-label">Lado</label>
+                    <input type="number" class="form-control" id="txtLado" value="" required>
+                    <div class="valid-feedback">
+                    </div>
+                    </div>    
+                    <div>
+                    <button class="btn btn-primary" type="submit">Calcular</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-5 respuesta">
+                    <h3>Respuesta</h3>
+                <div id="areaCuadrado"></div>
+            </div>
+        </div>
+        <div class="col-12 row formulario">
+            <div class="col-7 formas2">
+                <h3>Area del Triangulo</h3>
+                <form class="row g-3 needs-validation" method="#" novalidate onsubmit="return areaTriangulo();">
+                    <div class="col-md-4">
+                    <label for="txtBase" class="form-label">Base</label>
+                    <input type="number" class="form-control" id="txtBase" value="" required>
+                    <div class="valid-feedback">
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="txtAltura" class="form-label">Altura</label>
+                        <input type="number" class="form-control" id="txtAltura" value="" required>
+                        <div class="valid-feedback">
+                        </div>
+                        </div>    
+                    <div>
+                    <button class="btn btn-primary" type="submit">Calcular</button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-5 respuesta2">
+                    <h3>Respuesta</h3>
+                <div id="areaTriangulo"></div>
+            </div>
+        </div>
+
+        <div class="col-12 row formulario">
+            <div class="col-7 formas3">
+                <h3>Area del Circulo</h3>
+                <form class="row g-3 needs-validation" method="#" novalidate onsubmit="return areaCirculo();">
+                    <div class="col-md-4">
+                    <label for="txtRadio" class="form-label">Radio</label>
+                    <input type="number" class="form-control" id="txtRadio" value="" required>
+                    <div class="valid-feedback">
+                    </div>
+                    </div>    
+                    <div>
+                    <button class="btn btn-primary" type="submit">Calcular</button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-5 respuesta3">
+                    <h3>Respuesta</h3>
+                <div id="areaCirculo"></div>
+            </div>
+        </div>
+
+        <div class="col-12 row formulario">
+            <div class="col-7 formas4">
+                <h3>Area del Cuadrado</h3>
+                <form class="row g-3 needs-validation" method="#" novalidate onsubmit="return areaRectangulo();">
+                    <div class="col-md-4">
+                    <label for="txtBaseRectangulo" class="form-label">Base</label>
+                    <input type="number" class="form-control" id="txtBaseRectangulo" value="" required>
+                    <div class="valid-feedback">
+                    </div>
+                    </div>   
+                    <div class="col-md-4">
+                        <label for="txtAlturaRectangulo" class="form-label">Altura</label>
+                        <input type="number" class="form-control" id="txtAlturaRectangulo" value="" required>
+                        <div class="valid-feedback">
+                        </div>
+                    </div>    
+                    <div>
+                    <button class="btn btn-primary" type="submit">Calcular</button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-5 respuesta4">
+                    <h3>Respuesta</h3>
+                <div id="areaRectangulo"></div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="js/validacion.js"></script>
+    <script src="js/areas.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+    <div class="container">
+        <div class="col-12 row formulario">
+            <div class="col-8 formas">
+                <h3>Porcentajes de tres notas</h3>
+                <div col-12 row>
+                    <form class="row g-3 needs-validation" method="#" novalidate onsubmit="return porcentajes();">
+                        <div class="col-md-5">
+                            <label for="txtNotaUno" class="form-label">Notas</label>
+                            <input type="number" class="form-control" id="txtNota1" step="0.1" required>
+                        <div class="valid-feedback">
+                        </div>
+                        </div>
+                        <div class="col-md-5">
+                            <label for="txtNotaDos" class="form-label">Porcentajes</label>
+                            <input type="number" class="form-control" id="txtPorcentaje1"  required>
+                            <div class="valid-feedback">
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <label for="txtNotaUno" class="form-label"></label>
+                            <input type="number" class="form-control" id="txtNota2" step="0.1" required>
+                            <div class="valid-feedback">
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <label for="txtNotaDos" class="form-label"></label>
+                            <input type="number" class="form-control" id="txtPorcentaje2" required>
+                            <div class="valid-feedback">
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <label for="txtNotaUno" class="form-label"></label>
+                            <input type="number" class="form-control" id="txtNota3" step="0.1" required>
+                            <div class="valid-feedback">
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <label for="txtNotaDos" class="form-label"></label>
+                            <input type="number" class="form-control" id="txtPorcentaje3" required>
+                            <div class="valid-feedback">
+                            </div>
+                        </div>
+                    <div>
+                        
+                        <button class="btn btn-primary" type="submit">Calcular</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+            <div class="col-4 respuesta">
+                    <h3>Respuesta</h3>
+                        <div id="resultadoPorcentaje1"></div>
+                        <div id="resultadoPorcentaje2"></div>
+                        <div id="resultadoPorcentaje3"></div>
+                
+                <div id="suma"></div>
+            </div>
+        </div>
+
+    </div>
+   
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="js/validate.js"></script>
+    <script src="js/tresPorcen.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contar</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+    <div class="container">
+        <div class="col-12 row formulario">
+            <div class="col-6 formas">
+                <form class="row g-3 needs-validation" method="#" novalidate onsubmit="return numero(event);">
+                    <div class="col-md-4">
+                    <label for="txtContar" class="form-label">Numero</label>
+                    <input type="number" class="form-control" id="txtContar" required>
+                    </div>
+                    <div>
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-4 respuesta">
+                    <h3>Respuesta</h3>
+                <div id="numero"></div>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="js/validate.js"></script>
+    <script src="js/contar.js"></script>
+</body>
+</html>

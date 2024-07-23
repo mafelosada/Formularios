@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numeros</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+    <div class="container">
+        <div class="col-12 row formulario">
+            <div class="col-7 formas">
+                <h3>Comparacion de numeros</h3>
+                <form class="row g-3 needs-validation" method="#" novalidate onsubmit="return comparacion();">
+                    <div class="col-md-4">
+                    <label for="txtNumero1" class="form-label">Numero 1</label>
+                    <input type="number" class="form-control" id="txtNumero1" min="0" step="1" required>
+                    <div class="valid-feedback">
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="txtNumero2" class="form-label">Numero 2</label>
+                        <input type="number" class="form-control" id="txtNumero2" min="0" step="1" required>
+                        <div class="valid-feedback">
+                        </div>
+                        </div>
+                <div>
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-5 respuesta">
+                    <h3>Resultado</h3>
+                <div id="mayor"></div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="js/validate.js"></script>
+    <script src="js/numero.js"></script>
+</body>
+</html>

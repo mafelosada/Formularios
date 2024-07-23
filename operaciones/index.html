@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPERACIONES</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+    <div class="container">
+        <h1 class="text-center">OPERACIONES</h1>
+        <div class="col-12 row formulario">
+            <div class="col-8 formas">
+                <h3>Sumas</h3>
+                <form class="row g-3 needs-validation" method="#" novalidate onsubmit="return sumar();">
+                    <div class="col-md-4">
+                    <label for="txtNumeroUno" class="form-label">Numero Uno</label>
+                    <input type="number" class="form-control" id="txtNumeroUno" required>
+                    <div class="valid-feedback">
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="txtNumeroDos" class="form-label">Numero Dos</label>
+                        <input type="number" class="form-control" id="txtNumeroDos" required>
+                        <div class="valid-feedback">
+                        </div>
+                        </div>
+                    <div>
+                    <button class="btn btn-primary" type="submit">Calcular</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-4 respuesta">
+                    <h3>Respuesta</h3>
+                <div id="suma"></div>
+                <div id="resultadoSuma"></div>
+            </div>
+        </div>
+
+        <div class="col-12 row formulario">
+            <div class="col-8 formas">
+                <h3>Restas</h3>
+                <form class="row g-3 needs-validation" method="#" novalidate onsubmit="return restar();">
+                    <div class="col-md-4">
+                    <label for="txtNumeroTres" class="form-label">Numero Uno</label>
+                    <input type="number" class="form-control" id="txtNumeroTres" required>
+                    <div class="valid-feedback">
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="txtNumeroCuatro" class="form-label">Numero Dos</label>
+                        <input type="number" class="form-control" id="txtNumeroCuatro" required>
+                        <div class="valid-feedback">
+                        </div>
+                        </div>
+                    <div>
+                    <button class="btn btn-primary" type="submit">Calcular</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-4 respuesta">
+                    <h3>Respuesta</h3>
+                <div id="resta"></div>
+                <div id="resultadoResta"></div>
+            </div>
+        </div>
+
+        <div class="col-12 row formulario">
+            <div class="col-8 formas">
+                <h3>Multiplicaciones</h3>
+                <form class="row g-3 needs-validation" method="#" novalidate onsubmit="return multiplicar();">
+                    <div class="col-md-4">
+                    <label for="txtNumero1" class="form-label">Numero Uno</label>
+                    <input type="number" class="form-control" id="txtNumero1" required>
+                    <div class="valid-feedback">
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="txtNumero2" class="form-label">Numero Dos</label>
+                        <input type="number" class="form-control" id="txtNumero2" required>
+                        <div class="valid-feedback">
+                        </div>
+                        </div>
+                    <div>
+                    <button class="btn btn-primary" type="submit">Calcular</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-4 respuesta">
+                    <h3>Respuesta</h3>
+                <div id="multiplicacion"></div>
+                <div id="resultadoMulti"></div>
+            </div>
+        </div>
+
+        <div class="col-12 row formulario">
+            <div class="col-8 formas">
+                <h3>Divisiones</h3>
+                <form class="row g-3 needs-validation" method="#" novalidate onsubmit="return dividir();">
+                    <div class="col-md-4">
+                    <label for="txtNumero3" class="form-label">Numero Uno</label>
+                    <input type="number" class="form-control" id="txtNumero3" required>
+                    <div class="valid-feedback">
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="txtNumero4" class="form-label">Numero Dos</label>
+                        <input type="number" class="form-control" id="txtNumero4" required>
+                        <div class="valid-feedback">
+                        </div>
+                        </div>
+                    <div>
+                    <button class="btn btn-primary" type="submit">Calcular</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-4 respuesta">
+                    <h3>Respuesta</h3>
+                <div id="division"></div>
+                <div id="resultadoDivision"></div>
+            </div>
+        </div>
+
+
+
+    </div>
+   
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="js/validate.js"></script>
+    <script src="js/operaciones.js"></script>
+</body>
+</html>

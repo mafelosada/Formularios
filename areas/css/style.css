@@ -1,0 +1,65 @@
+.formulario{
+    display: flexbox;
+    flex-wrap: nowrap;
+    margin: 10px;
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+.respuesta{
+    border:  2px solid #d49726;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 6px;
+}
+.formas{
+    border:  2px solid #d49726;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 6px;
+    
+}
+
+
+.respuesta2{
+    border:  2px solid #8626d4;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 6px;
+}
+.formas2{
+    border:  2px solid #8626d4;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 6px;
+    
+}
+
+
+.respuesta3{
+    border:  2px solid #d42646;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 6px;
+}
+.formas3{
+    border:  2px solid #d42646;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 6px;
+    
+}
+
+
+.respuesta4{
+    border:  2px solid #cbd426;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 6px;
+}
+.formas4{
+    border:  2px solid #cbd426;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 6px;
+    
+}

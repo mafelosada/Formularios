@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edad</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+    <div class="container">
+        <div class="col-12 row formulario">
+            <div class="col-7 formas">
+                <h3>Edad de una persona</h3>
+                <form class="row g-3 needs-validation" method="#" novalidate onsubmit="return edades();">
+                    <div class="col-md-4">
+                    <label for="txtEdad" class="form-label">Edad</label>
+                    <input type="number" class="form-control" id="txtEdad" min="0" step="1" required>
+                    <div class="valid-feedback">
+                    </div>
+                    </div>
+                <div>
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-5 respuesta">
+                    <h3>¿Mayor o menor?</h3>
+                <div id="edad"></div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="js/validate.js"></script>
+    <script src="js/mayorOmenor.js"></script>
+</body>
+</html>
